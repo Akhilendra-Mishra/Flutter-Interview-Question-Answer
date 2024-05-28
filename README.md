@@ -6,11 +6,11 @@ ___ Here's a list of 50 common Flutter interview questions along with their answ
 
 
 1. What is Flutter?
-2. 
+ 
 Answer: Flutter is an open-source UI software development kit (SDK) created by Google. It is used to build natively compiled applications for mobile, web, and desktop from a single codebase.
 
-3. What programming language does Flutter use?
-4. 
+2. What programming language does Flutter use?
+
 Answer: Flutter uses the Dart programming language.
 
 3.What is Dart?
@@ -48,37 +48,48 @@ Answer: A Future in Dart represents a potential value or error that will be avai
 11.How do you handle asynchronous operations in Flutter?
 
 Answer: Asynchronous operations in Flutter can be handled using async and await keywords, or by using Future.then() and Future.catchError() methods.
+
 12. What is a Stream in Dart?
 
 Answer: A Stream in Dart is a sequence of asynchronous events. It can be used to handle a series of values, like reading data from a file or handling real-time data streams.
+
 13. How do you add external packages to a Flutter project?
 
 Answer: To add external packages, you update the pubspec.yaml file under the dependencies section and run flutter pub get.
-What is a Scaffold in Flutter?
+
+14.What is a Scaffold in Flutter?
 
 Answer: A Scaffold is a layout structure for the basic material design visual layout structure. It provides APIs for showing drawers, snack bars, bottom sheets, and more.
-What is the purpose of the setState() method?
+
+15.What is the purpose of the setState() method?
 
 Answer: The setState() method is used to tell the Flutter framework that the state of the widget has changed, which triggers a rebuild of the widget.
-What is the difference between hot reload and hot restart in Flutter?
+
+16.What is the difference between hot reload and hot restart in Flutter?
 
 Answer: Hot reload preserves the app's state while injecting updated code into the app, whereas hot restart resets the state and reloads the app from scratch.
-How does navigation work in Flutter?
+
+17.How does navigation work in Flutter?
 
 Answer: Navigation in Flutter is managed by the Navigator class, which maintains a stack of routes. You can push a route using Navigator.push() and pop a route using Navigator.pop().
-What is a Route in Flutter?
+
+18.What is a Route in Flutter?
 
 Answer: A Route is an abstraction for a screen or page in Flutter. It is used to navigate between different screens or pages in an app.
-What is a FutureBuilder in Flutter?
+
+19.What is a FutureBuilder in Flutter?
 
 Answer: A FutureBuilder is a widget that builds itself based on the latest snapshot of interaction with a Future.
-What is a StreamBuilder in Flutter?
+
+20.What is a StreamBuilder in Flutter?
 
 Answer: A StreamBuilder is a widget that builds itself based on the latest snapshot of interaction with a Stream.
-What is a ListView in Flutter?
+
+21.What is a ListView in Flutter?
 
 Answer: A ListView is a scrollable list of widgets arranged linearly.
-What is the difference between a Column and a Row in Flutter?
+
+22.What is the difference between a Column and a Row in Flutter?
 
 Answer: A Column arranges its children vertically, while a Row arranges its children horizontally.
 How do you handle user input in Flutter?
