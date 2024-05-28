@@ -1,47 +1,57 @@
 # Flutter-Interview-Question-Answer
 
 
-_________________________________ Here's a list of 50 common Flutter interview questions along with their answers______________________________________________________________________________________
+___ Here's a list of 50 common Flutter interview questions along with their answers___
 
 
 
 1. What is Flutter?
+2. 
 Answer: Flutter is an open-source UI software development kit (SDK) created by Google. It is used to build natively compiled applications for mobile, web, and desktop from a single codebase.
 
-2. What programming language does Flutter use?
+3. What programming language does Flutter use?
+4. 
 Answer: Flutter uses the Dart programming language.
 
 3.What is Dart?
+
 Answer: Dart is an object-oriented, class-defined programming language developed by Google. It is optimized for building user interfaces and is the language used by Flutter.
 
 4.What is a Widget in Flutter?
+
 Answer: A Widget is the basic building block of a Flutter app's user interface. Everything in Flutter is a Widget, including layout models, text, images, and more.
 
 5.What is the difference between a StatefulWidget and a StatelessWidget?
+
 Answer: A StatelessWidget is immutable, meaning its state cannot change once it's created. A StatefulWidget is mutable, meaning it can change state over time and requires a State object to hold this state.
 
 6.How do you manage state in Flutter?
+
 Answer: State in Flutter can be managed using various techniques, such as setState(), InheritedWidget, Provider, Riverpod, Bloc, Redux, and more.
 
 7.What is the purpose of the build() method in Flutter?
+
 Answer: The build() method is called to describe the part of the user interface represented by the widget. It returns a tree of widgets that describes the UI.
 
 8.How do you create a new Flutter project?
+
 Answer: You can create a new Flutter project using the command: flutter create project_name.
 
 9.What are keys in Flutter and why are they important?
+
 Answer: Keys are used to preserve the state of widgets across different widget trees. They help Flutter identify which widgets need to be updated, preserved, or removed efficiently.
 
 10.What is a Future in Dart?
+
 Answer: A Future in Dart represents a potential value or error that will be available at some point in the future. It is used for asynchronous programming.
 
-How do you handle asynchronous operations in Flutter?
+11.How do you handle asynchronous operations in Flutter?
 
 Answer: Asynchronous operations in Flutter can be handled using async and await keywords, or by using Future.then() and Future.catchError() methods.
-What is a Stream in Dart?
+12. What is a Stream in Dart?
 
 Answer: A Stream in Dart is a sequence of asynchronous events. It can be used to handle a series of values, like reading data from a file or handling real-time data streams.
-How do you add external packages to a Flutter project?
+13. How do you add external packages to a Flutter project?
 
 Answer: To add external packages, you update the pubspec.yaml file under the dependencies section and run flutter pub get.
 What is a Scaffold in Flutter?
